@@ -8,7 +8,7 @@
 const searchInput = document.querySelector("#searchbar > input")
 const searchButton = document.querySelector("#searchbar > button")
 
-const lookup = {"/":"/","deepl":"https://deepl.com/","reddit":"https://reddit.com/","maps":"https://maps.google.com/"}
+const lookup = {"/":"/","reddit":"https://reddit.com/","maps":"https://maps.google.com/","yt":"https://youtube.com","prado":"https://pradogrado2324.ugr.es","chat":"https://chat.openai.com","gmail":"https://mail.google.com","josealberto":"https://github.com/Joshoccas","wiki":"https://es.wikipedia.org","type":"https://monkeytype.com/"}
 const engine = "duckduckgo"
 const engineUrls = {
   deepl: "https://www.deepl.com/translator#-/-/{query}",
@@ -48,7 +48,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"zBnzN8GEsiIUXMiF","label":"General","bookmarks":[{"id":"IYBfeZwGAdg5fxdn","label":"youtube","url":"https://youtube.com"},{"id":"Ek14ZSShaYzfxbWc","label":"github","url":"https://github.com/leemon22"},{"id":"KcVYZyHt7YcOthPR","label":"chatgpt","url":"https://chat.openai.com"},{"id":"HJ8tMNb1wpsSQFyp","label":"gmail","url":"https://gmail.com"}]},{"id":"u9BLWNqaVCf3fZJ9","label":"Uni","bookmarks":[{"id":"6zIOTKhB4oraE0ie","label":"prado","url":"https://pradogrado2324.ugr.es/"},{"id":"cOdYd1h6VnugHBoO","label":"mail.ugr","url":"https://webmailest.ugr.es"},{"id":"I9pTfME5WdK3laA5","label":"josealberto","url":"https://github.com/Joshoccas"},{"id":"6yGaE1Ql70OQ5BRm","label":"wuolah","url":"https://wuolah.com/"}]},{"id":"Btn2NVry2XW7tKwf","label":"SocialMedia","bookmarks":[{"id":"U7q5fVacXiuK0cxS","label":"twitch","url":"https://twitch.tv"},{"id":"ixRp83GACjTeDyjm","label":"instagram","url":"https://instagram.com"},{"id":"XC96C4QtCgYaAkyw","label":"reddit","url":"https://reddit.com"}]},{"id":"MHiHVb6aj1lOdM5x","label":"Admin","bookmarks":[{"id":"PNP9XJUoz8Gjbdf6","label":"bitwarden","url":"https://pjwarden.duckdns.org"}]}]
+const bookmarks = [{"id":"zBnzN8GEsiIUXMiF","label":"General","bookmarks":[{"id":"IYBfeZwGAdg5fxdn","label":"youtube","url":"https://youtube.com"},{"id":"Ek14ZSShaYzfxbWc","label":"github","url":"https://github.com/leemon22"},{"id":"KcVYZyHt7YcOthPR","label":"chatgpt","url":"https://chat.openai.com"},{"id":"HJ8tMNb1wpsSQFyp","label":"gmail","url":"https://gmail.com"}]},{"id":"u9BLWNqaVCf3fZJ9","label":"Uni","bookmarks":[{"id":"6zIOTKhB4oraE0ie","label":"prado","url":"https://pradogrado2324.ugr.es/"},{"id":"cOdYd1h6VnugHBoO","label":"mail.ugr","url":"https://webmailest.ugr.es"},{"id":"I9pTfME5WdK3laA5","label":"josealberto","url":"https://github.com/Joshoccas"},{"id":"6yGaE1Ql70OQ5BRm","label":"wuolah","url":"https://wuolah.com/"}]},{"id":"Btn2NVry2XW7tKwf","label":"SocialMedia","bookmarks":[{"id":"U7q5fVacXiuK0cxS","label":"twitch","url":"https://twitch.tv"},{"id":"ixRp83GACjTeDyjm","label":"instagram","url":"https://instagram.com"},{"id":"XC96C4QtCgYaAkyw","label":"reddit","url":"https://reddit.com"}]},{"id":"MHiHVb6aj1lOdM5x","label":"Admin","bookmarks":[{"id":"PNP9XJUoz8Gjbdf6","label":"bitwarden","url":"https://pjwarden.duckdns.org"}]},{"id":"lIuKEzhLWj3D5FtM","label":"Others","bookmarks":[{"id":"AxXK8l1fSkuCmKaL","label":"type","url":"https://monkeytype.com/"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")

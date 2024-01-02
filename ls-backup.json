@@ -1,0 +1,177 @@
+{
+  "yags-general": {
+    "img": "https://media0.giphy.com/media/J0WeVOLjuqW2I/giphy.gif?cid=ecf05e47ytjup9gxzpyolkw5gu0bwq4urumn1plyze2vk7im&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+    "title": "Yes, This Is My StartPage",
+    "displayImg": true,
+    "font": "Quicksand",
+    "enableFonts": false,
+    "fontSize": 1
+  },
+  "yags-search": {
+    "placeholder": "🍋🍋🍋",
+    "engine": "duckduckgo",
+    "forwardingLookup": {
+      "/": "/",
+      "reddit": "https://reddit.com/",
+      "maps": "https://maps.google.com/",
+      "yt": "https://youtube.com",
+      "prado": "https://pradogrado2324.ugr.es",
+      "chat": "https://chat.openai.com",
+      "gmail": "https://mail.google.com",
+      "josealberto": "https://github.com/Joshoccas",
+      "wiki": "https://es.wikipedia.org",
+      "type": "https://monkeytype.com/"
+    }
+  },
+  "yags-theme": {
+    "inverted": false,
+    "color": {
+      "name": "nord",
+      "bg": {
+        "shade": "#252A33",
+        "base": "#2E3440",
+        "surface": "#373E4D",
+        "highlight": "#40495A"
+      },
+      "fg": {
+        "shade": "#768CB2",
+        "base": "#A6B4CD",
+        "surface": "#D6DCE8",
+        "highlight": "#FFFFFF"
+      },
+      "primary": {
+        "bg": "#2C4948",
+        "base": "#579190",
+        "fg": "#9AC2C2"
+      },
+      "secondary": {
+        "bg": "#25394C",
+        "base": "#4A7197",
+        "fg": "#8BA9C6"
+      },
+      "palette": {
+        "red": "#BF616A",
+        "green": "#A3BE8C",
+        "yellow": "#EBCB8B",
+        "blue": "#5E81AC",
+        "purple": "#B48EAD",
+        "cyan": "#88C0D0",
+        "orange": "#D08770"
+      }
+    },
+    "space": {
+      "smallest": "0.125rem",
+      "small": "0.5rem",
+      "medium": "1rem",
+      "large": "1.5rem",
+      "largest": "3rem"
+    }
+  },
+  "yags-surface": {
+    "shadow": {
+      "amount": 3,
+      "blur": 4,
+      "offset": 10,
+      "shadow": "10px 10px 4px rgb(44, 73, 72), 20px 20px 4px rgb(40.5, 65, 74), 30px 30px 4px rgb(37, 57, 76)"
+    },
+    "borderRadius": 0,
+    "maxWidth": 1000
+  },
+  "yags-bookmarks": [
+    {
+      "id": "zBnzN8GEsiIUXMiF",
+      "label": "General",
+      "bookmarks": [
+        {
+          "id": "IYBfeZwGAdg5fxdn",
+          "label": "youtube",
+          "url": "https://youtube.com"
+        },
+        {
+          "id": "Ek14ZSShaYzfxbWc",
+          "label": "github",
+          "url": "https://github.com/leemon22"
+        },
+        {
+          "id": "KcVYZyHt7YcOthPR",
+          "label": "chatgpt",
+          "url": "https://chat.openai.com"
+        },
+        {
+          "id": "HJ8tMNb1wpsSQFyp",
+          "label": "gmail",
+          "url": "https://gmail.com"
+        }
+      ]
+    },
+    {
+      "id": "u9BLWNqaVCf3fZJ9",
+      "label": "Uni",
+      "bookmarks": [
+        {
+          "id": "6zIOTKhB4oraE0ie",
+          "label": "prado",
+          "url": "https://pradogrado2324.ugr.es/"
+        },
+        {
+          "id": "cOdYd1h6VnugHBoO",
+          "label": "mail.ugr",
+          "url": "https://webmailest.ugr.es"
+        },
+        {
+          "id": "I9pTfME5WdK3laA5",
+          "label": "josealberto",
+          "url": "https://github.com/Joshoccas"
+        },
+        {
+          "id": "6yGaE1Ql70OQ5BRm",
+          "label": "wuolah",
+          "url": "https://wuolah.com/"
+        }
+      ]
+    },
+    {
+      "id": "Btn2NVry2XW7tKwf",
+      "label": "SocialMedia",
+      "bookmarks": [
+        {
+          "id": "U7q5fVacXiuK0cxS",
+          "label": "twitch",
+          "url": "https://twitch.tv"
+        },
+        {
+          "id": "ixRp83GACjTeDyjm",
+          "label": "instagram",
+          "url": "https://instagram.com"
+        },
+        {
+          "id": "XC96C4QtCgYaAkyw",
+          "label": "reddit",
+          "url": "https://reddit.com"
+        }
+      ]
+    },
+    {
+      "id": "MHiHVb6aj1lOdM5x",
+      "label": "Admin",
+      "bookmarks": [
+        {
+          "id": "PNP9XJUoz8Gjbdf6",
+          "label": "bitwarden",
+          "url": "https://pjwarden.duckdns.org"
+        }
+      ]
+    },
+    {
+      "id": "lIuKEzhLWj3D5FtM",
+      "label": "Others",
+      "bookmarks": [
+        {
+          "id": "AxXK8l1fSkuCmKaL",
+          "label": "type",
+          "url": "https://monkeytype.com/"
+        }
+      ]
+    }
+  ]
+}
